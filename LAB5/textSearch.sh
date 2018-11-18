@@ -6,7 +6,7 @@ provided=$#
 if [ $required -eq $provided ]; then
 #Z1
 	printf "\nAll roman numbers (to X) in file:\n\n"
-	grep -onP  '(^| +)([\+\-]?\d\d[_-])?(\d{3}(?P<sep>[-_]))(\d{3}\g{sep})(\d{3})(?=$| )' $1
+	grep -onP  '(^| +)(I?(V|X)|V?I{1,3})(?=$| )' $1
 #Z2
 	printf "\nAll integers in file:\n\n"
 	grep -onP  '(^|[ ]+)(\+|\-)?\d+(?=$|[ ])' $1
