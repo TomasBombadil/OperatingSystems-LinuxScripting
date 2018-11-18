@@ -1,0 +1,42 @@
+Zadanie 1
+Odnajduje:
+I II III IV V VI VII VIII IX X
+  I  II  III  IV  V  VI  VII  VIII  IX  X
+
+I II   III IV V    
+VI VII    
+
+VIII IX X
+
+Nie odnajduje:
+XIX IIII VVI XI aV bX xX iX Vi iv ii 
+
+Zadanie 2
+Odnajduje:
++11 -120 2  33345 65
+
+47    -87213
+672   
++56713212341234
+
+Nie odnajduje:
+=123123 *123 /1234 $1325
+-1234a +123b
+asd123asd asd333asd
+asd321
++asd321
+321-
+123+
+
+Zadanie 3
+Odnajduje:
+111-111-111 112-112-112
+222-111-111   112_112_112
++48-222-111-111 +48_112_112_112
+   121-111-111 121-111-112
+
+Nie odnajduje:
+111-1a1-111 a112-112-112
+222-111-111a 112-112_112
+
+048_112_112_112
