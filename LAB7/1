@@ -1,0 +1,24 @@
+#!/bin/bash
+
+arr=($(for i in {0..9}; do echo $((RANDOM%100)); done))
+
+insertSort () {
+
+	isSorted=false
+
+	while($isSorted -eq false); 
+	do
+		echo "while"
+		for((i=0;i<$#;i++))
+		do
+			echo $#	
+		done
+		$isSorted=true
+	done
+}
+
+# MAIN
+#Z1bash
+
+insertSort ${arr[@]}
+
