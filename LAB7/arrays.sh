@@ -1,18 +1,17 @@
 #!/bin/bash
 
-arr=($(for i in {0..9}; do echo $((RANDOM%100)); done))
+arr1=($(for i in {0..9};do printf '0.%04d\n' $RANDOM; done))  #do echo $((RANDOM%100)); done))
 
-insertSort () {
-
+insertSort () 
+{
+	arr=("$@")
 	for((i=1;i<$#;i++))
 	do
-		let ind=$i-1
+		ind=$(($i-1))
 		tmp=${arr[$i]}
-		echo "loop1"	
-	while [ $tmp -lt ${arr[$ind]} ] 		
+	while [ $tmp '<' ${arr[$ind]} | bc -l ] 		
 	do
-		arr[$i]=${arr[$ind]}
-		arr[$ind]=$tmp
+		arr[ind+1]=${arr[ind]}
 		
 		let ind--
 		
@@ -20,12 +19,13 @@ insertSort () {
 			break
 		fi
 	done
+	arr[ind+1]=$tmp
 done
 	echo ${arr[@]}
 }
 
 # MAIN
 #Z1bash
-echo ${arr[@]}
-insertSort ${arr[@]}
+echo ${arr1[@]}
+insertSort ${arr1[@]}
 
