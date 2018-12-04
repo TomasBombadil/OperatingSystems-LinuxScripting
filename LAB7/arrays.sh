@@ -1,6 +1,6 @@
 #!/bin/bash
 
-arr1=($(for i in {0..9};do printf '0.%04d\n' $RANDOM; done))  #do echo $((RANDOM%100)); done))
+arr1=($(for i in {0..9};do printf '0.%04d\n' $((RANDOM%100)); done))  #do echo $((RANDOM%100)); done))
 
 insertSort () 
 {
@@ -9,23 +9,35 @@ insertSort ()
 	do
 		ind=$(($i-1))
 		tmp=${arr[$i]}
-	while [ $tmp '<' ${arr[$ind]} | bc -l ] 		
-	do
-		arr[ind+1]=${arr[ind]}
+
+		comp=$(echo $tmp '<' ${arr[$ind]} | bc -l)
 		
-		let ind--
+		showArray ${arr[@]}	
+		while [ $comp -eq "1" ] 		
+		do
+			printf "\nComparing| $tmp < ${arr[$ind]}"
+			arr[ind+1]=${arr[ind]}
 		
-		if [ $ind -eq -1 ]; then
-			break
-		fi
+			let ind--
+		
+			if [ $ind -eq -1 ]; then
+				break
+			fi
+		done
+		arr[ind+1]=$tmp
 	done
-	arr[ind+1]=$tmp
-done
-	echo ${arr[@]}
+	printf "\nEnd\n"
+	showArray ${arr[@]}
+}
+showArray ()
+{
+	arr=("$@")
+	IFS="|$IFS"; printf '\n%s\n' "${arr[*]}"; IFS="${IFS:1}"
 }
 
 # MAIN
-#Z1bash
-echo ${arr1[@]}
+#Z1
+printf "Start:\n"
+#showArray ${arr1[@]} 
 insertSort ${arr1[@]}
 
