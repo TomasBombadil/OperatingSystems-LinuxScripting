@@ -1,0 +1,4 @@
+D:./testDir1/
+D:./testDir1/dir2
+F:./testDir1/file1
+F:./testDir1/dir2/file2
