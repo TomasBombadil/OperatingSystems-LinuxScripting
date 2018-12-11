@@ -1,0 +1,22 @@
+
+1) root:x:0:0:root:/root:/bin/bash
+3) bin:x:2:2:bin:/bin:/usr/sbin/nologin
+5) sync:x:4:65534:sync:/bin:/bin/sync
+7) man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+9) mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+11) uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+13) www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+15) list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+17) gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+19) systemd-network:x:100:102:systemd Network Management,,,:/run/systemd/netif:/usr/sbin/nologin
+21) syslog:x:102:106::/home/syslog:/usr/sbin/nologin
+23) _apt:x:104:65534::/nonexistent:/usr/sbin/nologin
+25) avahi-autoipd:x:106:112:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+27) dnsmasq:x:108:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+29) cups-pk-helper:x:110:116:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+31) whoopsie:x:112:117::/nonexistent:/bin/false
+33) saned:x:114:119::/var/lib/saned:/usr/sbin/nologin
+35) avahi:x:116:122:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
+37) hplip:x:118:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+39) gnome-initial-setup:x:120:65534::/run/gnome-initial-setup/:/bin/false
+41) charlie:x:1000:1000:charlie,,,:/home/charlie:/bin/bash
