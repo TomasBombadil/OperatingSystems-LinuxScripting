@@ -42,18 +42,15 @@ runner ()
 		proc $i &
 		pids[${i}]=$!
 	done
-	
-	# ---------------------------------------
-	# Killer test
-	killer $2 "${pids[@]}"
-	# --------------------------------------
+
+
+	killer $2 `seq 1 $1`
 
 	# Wait for all processes to finish	
 	for pid in ${pids[*]}
 	do
 		wait $pid
 	done
-	printf "Runner finished \n"
 }
 # Z11.2
 killer () 
@@ -65,8 +62,6 @@ killer ()
 		exit 1
 	fi
 	processes=( "$@" )
-	
-	printf "All processes ${processes[@]}\n"
 
 	for process in ${processes[@]}
 	do
@@ -79,4 +74,3 @@ killer ()
 
 #proc $1
 runner $1
-
