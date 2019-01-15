@@ -45,7 +45,7 @@ runner ()
 	
 	# ---------------------------------------
 	# Killer test
-	killer $(whoami) 'sleep' -L -9
+	killer $(whoami) 'sleep' -9
 	# --------------------------------------
 
 	# Wait for all processes to finish	
@@ -65,11 +65,10 @@ killer ()
 	processname=$2
 	shift 2
 	args="$@"
-	echo ${args[@]}
 
 	ps -au | grep -i $user | grep -i $processname | cut -d" " -f4 | while read pid; do
 		
-		kill $pid ${args[@]}	
+		kill ${args[@]} $pid 	
 	done	
 }
 
