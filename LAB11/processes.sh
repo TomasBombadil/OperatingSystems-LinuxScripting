@@ -45,7 +45,7 @@ runner ()
 	
 	# ---------------------------------------
 	# Killer test
-	killer $2 "${pids[@]}"
+	killer $(whoami) 'sleep' -L -9
 	# --------------------------------------
 
 	# Wait for all processes to finish	
@@ -57,22 +57,20 @@ runner ()
 }
 # Z11.2
 killer () 
-{
-	required=2
-	provided=$#
-	if [ $provided -lt $required ]; then
-		printf "Required arguments: $required  | Provided args: $provided \n"
-		exit 1
-	fi
-	processes=( "$@" )
-	
-	printf "All processes ${processes[@]}\n"
+{	
+	printf "................................"
+	printf "\nKilling processes of user $1 \n"
+	printf "................................\n"
+	user=$1
+	processname=$2
+	shift 2
+	args="$@"
+	echo ${args[@]}
 
-	for process in ${processes[@]}
-	do
-		printf "Killing $process\n"
-	#	pkill -u $1 $process 
-	done
+	ps -au | grep -i $user | grep -i $processname | cut -d" " -f4 | while read pid; do
+		
+		kill $pid ${args[@]}	
+	done	
 }
 
 # MAIN
