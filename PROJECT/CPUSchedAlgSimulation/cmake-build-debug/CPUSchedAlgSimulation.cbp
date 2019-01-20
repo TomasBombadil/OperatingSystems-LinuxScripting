@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CPUSchedAlgSimulation"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/PROGRAMY/LIBRARIES/MinGW/bin/mingw32-make.exe -f &quot;E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/PROGRAMY/LIBRARIES/MinGW/bin/mingw32-make.exe -f &quot;E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRAMY/LIBRARIES/MinGW/bin/mingw32-make.exe -f &quot;E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRAMY/LIBRARIES/MinGW/bin/mingw32-make.exe -f &quot;E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/PROGRAMY/LIBRARIES/MinGW/bin/mingw32-make.exe -f &quot;E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/PROGRAMY/LIBRARIES/MinGW/bin/mingw32-make.exe -f &quot;E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRAMY/LIBRARIES/MinGW/bin/mingw32-make.exe -f &quot;E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRAMY/LIBRARIES/MinGW/bin/mingw32-make.exe -f &quot;E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPUSchedAlgSimulation">
+				<Option output="E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/CPUSchedAlgSimulation.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\programy\libraries\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\programy\libraries\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\programy\libraries\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\programy\libraries\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\programy\libraries\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\programy\libraries\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\programy\libraries\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/PROGRAMY/LIBRARIES/MinGW/bin/mingw32-make.exe -f &quot;E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPUSchedAlgSimulation"/>
+					<CompileFile command="D:/PROGRAMY/LIBRARIES/MinGW/bin/mingw32-make.exe -f &quot;E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRAMY/LIBRARIES/MinGW/bin/mingw32-make.exe -f &quot;E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRAMY/LIBRARIES/MinGW/bin/mingw32-make.exe -f &quot;E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPUSchedAlgSimulation/fast">
+				<Option output="E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/CPUSchedAlgSimulation.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\programy\libraries\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\programy\libraries\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\programy\libraries\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="d:\programy\libraries\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\programy\libraries\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\programy\libraries\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\programy\libraries\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/PROGRAMY/LIBRARIES/MinGW/bin/mingw32-make.exe -f &quot;E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPUSchedAlgSimulation/fast"/>
+					<CompileFile command="D:/PROGRAMY/LIBRARIES/MinGW/bin/mingw32-make.exe -f &quot;E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRAMY/LIBRARIES/MinGW/bin/mingw32-make.exe -f &quot;E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRAMY/LIBRARIES/MinGW/bin/mingw32-make.exe -f &quot;E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/PROGRAMY/LIBRARIES/MinGW/bin/mingw32-make.exe -f &quot;E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/PROGRAMY/LIBRARIES/MinGW/bin/mingw32-make.exe -f &quot;E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/PROGRAMY/LIBRARIES/MinGW/bin/mingw32-make.exe -f &quot;E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/PROGRAMY/LIBRARIES/MinGW/bin/mingw32-make.exe -f &quot;E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SJF.cpp">
+			<Option target="CPUSchedAlgSimulation"/>
+		</Unit>
+		<Unit filename="E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SJF.h">
+			<Option target="CPUSchedAlgSimulation"/>
+		</Unit>
+		<Unit filename="E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SystemObjects/Process.cpp">
+			<Option target="CPUSchedAlgSimulation"/>
+		</Unit>
+		<Unit filename="E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SystemObjects/Process.h">
+			<Option target="CPUSchedAlgSimulation"/>
+		</Unit>
+		<Unit filename="E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/main.cpp">
+			<Option target="CPUSchedAlgSimulation"/>
+		</Unit>
+		<Unit filename="E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

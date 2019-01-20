@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SJF.cpp
+SJF.h
+E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SJF.h
+
+E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SJF.h
+vector
+-
+algorithm
+-
+SchedulingAlgorithm.h
+E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SchedulingAlgorithm.h
+
+E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SchedulingAlgorithm.h
+vector
+-
+ctime
+-
+../SystemObjects/Process.h
+E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SystemObjects/Process.h
+
+E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SystemObjects/Process.cpp
+Process.h
+E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SystemObjects/Process.h
+
+E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SystemObjects/Process.h
+iostream
+-
+ctime
+-
+
+E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/main.cpp
+iostream
+-
+vector
+-
+SchedulingAlgorithms/SJF.h
+E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SJF.h
+
