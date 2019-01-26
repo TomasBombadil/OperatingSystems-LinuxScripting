@@ -122,6 +122,33 @@ CPUSchedAlgSimulation/fast:
 	$(MAKE) -f CMakeFiles\CPUSchedAlgSimulation.dir\build.make CMakeFiles/CPUSchedAlgSimulation.dir/build
 .PHONY : CPUSchedAlgSimulation/fast
 
+SchedulingAlgorithms/RoundRobin.obj: SchedulingAlgorithms/RoundRobin.cpp.obj
+
+.PHONY : SchedulingAlgorithms/RoundRobin.obj
+
+# target to build an object file
+SchedulingAlgorithms/RoundRobin.cpp.obj:
+	$(MAKE) -f CMakeFiles\CPUSchedAlgSimulation.dir\build.make CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.obj
+.PHONY : SchedulingAlgorithms/RoundRobin.cpp.obj
+
+SchedulingAlgorithms/RoundRobin.i: SchedulingAlgorithms/RoundRobin.cpp.i
+
+.PHONY : SchedulingAlgorithms/RoundRobin.i
+
+# target to preprocess a source file
+SchedulingAlgorithms/RoundRobin.cpp.i:
+	$(MAKE) -f CMakeFiles\CPUSchedAlgSimulation.dir\build.make CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.i
+.PHONY : SchedulingAlgorithms/RoundRobin.cpp.i
+
+SchedulingAlgorithms/RoundRobin.s: SchedulingAlgorithms/RoundRobin.cpp.s
+
+.PHONY : SchedulingAlgorithms/RoundRobin.s
+
+# target to generate assembly for a file
+SchedulingAlgorithms/RoundRobin.cpp.s:
+	$(MAKE) -f CMakeFiles\CPUSchedAlgSimulation.dir\build.make CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.s
+.PHONY : SchedulingAlgorithms/RoundRobin.cpp.s
+
 SchedulingAlgorithms/SJF.obj: SchedulingAlgorithms/SJF.cpp.obj
 
 .PHONY : SchedulingAlgorithms/SJF.obj
@@ -148,6 +175,33 @@ SchedulingAlgorithms/SJF.s: SchedulingAlgorithms/SJF.cpp.s
 SchedulingAlgorithms/SJF.cpp.s:
 	$(MAKE) -f CMakeFiles\CPUSchedAlgSimulation.dir\build.make CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SJF.cpp.s
 .PHONY : SchedulingAlgorithms/SJF.cpp.s
+
+SchedulingAlgorithms/SchedulingAlgorithm.obj: SchedulingAlgorithms/SchedulingAlgorithm.cpp.obj
+
+.PHONY : SchedulingAlgorithms/SchedulingAlgorithm.obj
+
+# target to build an object file
+SchedulingAlgorithms/SchedulingAlgorithm.cpp.obj:
+	$(MAKE) -f CMakeFiles\CPUSchedAlgSimulation.dir\build.make CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.obj
+.PHONY : SchedulingAlgorithms/SchedulingAlgorithm.cpp.obj
+
+SchedulingAlgorithms/SchedulingAlgorithm.i: SchedulingAlgorithms/SchedulingAlgorithm.cpp.i
+
+.PHONY : SchedulingAlgorithms/SchedulingAlgorithm.i
+
+# target to preprocess a source file
+SchedulingAlgorithms/SchedulingAlgorithm.cpp.i:
+	$(MAKE) -f CMakeFiles\CPUSchedAlgSimulation.dir\build.make CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.i
+.PHONY : SchedulingAlgorithms/SchedulingAlgorithm.cpp.i
+
+SchedulingAlgorithms/SchedulingAlgorithm.s: SchedulingAlgorithms/SchedulingAlgorithm.cpp.s
+
+.PHONY : SchedulingAlgorithms/SchedulingAlgorithm.s
+
+# target to generate assembly for a file
+SchedulingAlgorithms/SchedulingAlgorithm.cpp.s:
+	$(MAKE) -f CMakeFiles\CPUSchedAlgSimulation.dir\build.make CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.s
+.PHONY : SchedulingAlgorithms/SchedulingAlgorithm.cpp.s
 
 SystemObjects/Process.obj: SystemObjects/Process.cpp.obj
 
@@ -212,9 +266,15 @@ help:
 	@echo ... rebuild_cache
 	@echo ... CPUSchedAlgSimulation
 	@echo ... edit_cache
+	@echo ... SchedulingAlgorithms/RoundRobin.obj
+	@echo ... SchedulingAlgorithms/RoundRobin.i
+	@echo ... SchedulingAlgorithms/RoundRobin.s
 	@echo ... SchedulingAlgorithms/SJF.obj
 	@echo ... SchedulingAlgorithms/SJF.i
 	@echo ... SchedulingAlgorithms/SJF.s
+	@echo ... SchedulingAlgorithms/SchedulingAlgorithm.obj
+	@echo ... SchedulingAlgorithms/SchedulingAlgorithm.i
+	@echo ... SchedulingAlgorithms/SchedulingAlgorithm.s
 	@echo ... SystemObjects/Process.obj
 	@echo ... SystemObjects/Process.i
 	@echo ... SystemObjects/Process.s

@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/RoundRobin.cpp" "E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.obj"
   "E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SJF.cpp" "E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SJF.cpp.obj"
+  "E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SchedulingAlgorithm.cpp" "E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.obj"
   "E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SystemObjects/Process.cpp" "E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/CMakeFiles/CPUSchedAlgSimulation.dir/SystemObjects/Process.cpp.obj"
   "E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/main.cpp" "E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/cmake-build-debug/CMakeFiles/CPUSchedAlgSimulation.dir/main.cpp.obj"
   )

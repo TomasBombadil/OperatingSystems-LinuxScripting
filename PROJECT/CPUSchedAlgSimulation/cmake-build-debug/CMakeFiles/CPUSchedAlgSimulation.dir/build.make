@@ -104,9 +104,33 @@ CMakeFiles/CPUSchedAlgSimulation.dir/SystemObjects/Process.cpp.obj.provides: CMa
 CMakeFiles/CPUSchedAlgSimulation.dir/SystemObjects/Process.cpp.obj.provides.build: CMakeFiles/CPUSchedAlgSimulation.dir/SystemObjects/Process.cpp.obj
 
 
+CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.obj: CMakeFiles/CPUSchedAlgSimulation.dir/flags.make
+CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.obj: ../SchedulingAlgorithms/SchedulingAlgorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\STUDIA\SO\OperatingSystems-LinuxScripting\PROJECT\CPUSchedAlgSimulation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.obj"
+	D:\PROGRAMY\LIBRARIES\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPUSchedAlgSimulation.dir\SchedulingAlgorithms\SchedulingAlgorithm.cpp.obj -c E:\STUDIA\SO\OperatingSystems-LinuxScripting\PROJECT\CPUSchedAlgSimulation\SchedulingAlgorithms\SchedulingAlgorithm.cpp
+
+CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.i"
+	D:\PROGRAMY\LIBRARIES\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\STUDIA\SO\OperatingSystems-LinuxScripting\PROJECT\CPUSchedAlgSimulation\SchedulingAlgorithms\SchedulingAlgorithm.cpp > CMakeFiles\CPUSchedAlgSimulation.dir\SchedulingAlgorithms\SchedulingAlgorithm.cpp.i
+
+CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.s"
+	D:\PROGRAMY\LIBRARIES\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\STUDIA\SO\OperatingSystems-LinuxScripting\PROJECT\CPUSchedAlgSimulation\SchedulingAlgorithms\SchedulingAlgorithm.cpp -o CMakeFiles\CPUSchedAlgSimulation.dir\SchedulingAlgorithms\SchedulingAlgorithm.cpp.s
+
+CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.obj.requires:
+
+.PHONY : CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.obj.requires
+
+CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.obj.provides: CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\CPUSchedAlgSimulation.dir\build.make CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.obj.provides.build
+.PHONY : CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.obj.provides
+
+CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.obj.provides.build: CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.obj
+
+
 CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SJF.cpp.obj: CMakeFiles/CPUSchedAlgSimulation.dir/flags.make
 CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SJF.cpp.obj: ../SchedulingAlgorithms/SJF.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\STUDIA\SO\OperatingSystems-LinuxScripting\PROJECT\CPUSchedAlgSimulation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SJF.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\STUDIA\SO\OperatingSystems-LinuxScripting\PROJECT\CPUSchedAlgSimulation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SJF.cpp.obj"
 	D:\PROGRAMY\LIBRARIES\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPUSchedAlgSimulation.dir\SchedulingAlgorithms\SJF.cpp.obj -c E:\STUDIA\SO\OperatingSystems-LinuxScripting\PROJECT\CPUSchedAlgSimulation\SchedulingAlgorithms\SJF.cpp
 
 CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SJF.cpp.i: cmake_force
@@ -128,23 +152,51 @@ CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SJF.cpp.obj.provides: 
 CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SJF.cpp.obj.provides.build: CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SJF.cpp.obj
 
 
+CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.obj: CMakeFiles/CPUSchedAlgSimulation.dir/flags.make
+CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.obj: ../SchedulingAlgorithms/RoundRobin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\STUDIA\SO\OperatingSystems-LinuxScripting\PROJECT\CPUSchedAlgSimulation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.obj"
+	D:\PROGRAMY\LIBRARIES\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPUSchedAlgSimulation.dir\SchedulingAlgorithms\RoundRobin.cpp.obj -c E:\STUDIA\SO\OperatingSystems-LinuxScripting\PROJECT\CPUSchedAlgSimulation\SchedulingAlgorithms\RoundRobin.cpp
+
+CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.i"
+	D:\PROGRAMY\LIBRARIES\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\STUDIA\SO\OperatingSystems-LinuxScripting\PROJECT\CPUSchedAlgSimulation\SchedulingAlgorithms\RoundRobin.cpp > CMakeFiles\CPUSchedAlgSimulation.dir\SchedulingAlgorithms\RoundRobin.cpp.i
+
+CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.s"
+	D:\PROGRAMY\LIBRARIES\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\STUDIA\SO\OperatingSystems-LinuxScripting\PROJECT\CPUSchedAlgSimulation\SchedulingAlgorithms\RoundRobin.cpp -o CMakeFiles\CPUSchedAlgSimulation.dir\SchedulingAlgorithms\RoundRobin.cpp.s
+
+CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.obj.requires:
+
+.PHONY : CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.obj.requires
+
+CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.obj.provides: CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\CPUSchedAlgSimulation.dir\build.make CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.obj.provides.build
+.PHONY : CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.obj.provides
+
+CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.obj.provides.build: CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.obj
+
+
 # Object files for target CPUSchedAlgSimulation
 CPUSchedAlgSimulation_OBJECTS = \
 "CMakeFiles/CPUSchedAlgSimulation.dir/main.cpp.obj" \
 "CMakeFiles/CPUSchedAlgSimulation.dir/SystemObjects/Process.cpp.obj" \
-"CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SJF.cpp.obj"
+"CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.obj" \
+"CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SJF.cpp.obj" \
+"CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.obj"
 
 # External object files for target CPUSchedAlgSimulation
 CPUSchedAlgSimulation_EXTERNAL_OBJECTS =
 
 CPUSchedAlgSimulation.exe: CMakeFiles/CPUSchedAlgSimulation.dir/main.cpp.obj
 CPUSchedAlgSimulation.exe: CMakeFiles/CPUSchedAlgSimulation.dir/SystemObjects/Process.cpp.obj
+CPUSchedAlgSimulation.exe: CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.obj
 CPUSchedAlgSimulation.exe: CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SJF.cpp.obj
+CPUSchedAlgSimulation.exe: CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.obj
 CPUSchedAlgSimulation.exe: CMakeFiles/CPUSchedAlgSimulation.dir/build.make
 CPUSchedAlgSimulation.exe: CMakeFiles/CPUSchedAlgSimulation.dir/linklibs.rsp
 CPUSchedAlgSimulation.exe: CMakeFiles/CPUSchedAlgSimulation.dir/objects1.rsp
 CPUSchedAlgSimulation.exe: CMakeFiles/CPUSchedAlgSimulation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\STUDIA\SO\OperatingSystems-LinuxScripting\PROJECT\CPUSchedAlgSimulation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable CPUSchedAlgSimulation.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\STUDIA\SO\OperatingSystems-LinuxScripting\PROJECT\CPUSchedAlgSimulation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable CPUSchedAlgSimulation.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CPUSchedAlgSimulation.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,7 +206,9 @@ CMakeFiles/CPUSchedAlgSimulation.dir/build: CPUSchedAlgSimulation.exe
 
 CMakeFiles/CPUSchedAlgSimulation.dir/requires: CMakeFiles/CPUSchedAlgSimulation.dir/main.cpp.obj.requires
 CMakeFiles/CPUSchedAlgSimulation.dir/requires: CMakeFiles/CPUSchedAlgSimulation.dir/SystemObjects/Process.cpp.obj.requires
+CMakeFiles/CPUSchedAlgSimulation.dir/requires: CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.obj.requires
 CMakeFiles/CPUSchedAlgSimulation.dir/requires: CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SJF.cpp.obj.requires
+CMakeFiles/CPUSchedAlgSimulation.dir/requires: CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.obj.requires
 
 .PHONY : CMakeFiles/CPUSchedAlgSimulation.dir/requires
 

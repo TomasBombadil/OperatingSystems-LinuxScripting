@@ -1,6 +1,13 @@
 #include "SJF.h"
 
-bool operator<(Process &lhs, Process &rhs)
+bool SJF::lt(Process &lhs, Process &rhs)
 {
-    return lhs.burstTime < rhs.burstTime;
+    return lhs.burstTime() < rhs.burstTime();
 }
+std::vector <Process> SJF::sortNP(std::vector <Process> processes)
+    {
+        std::sort(processes.begin(), processes.end(), lt);
+        avgWaitingTime_ =  execute(processes);
+
+        return processes;
+    }

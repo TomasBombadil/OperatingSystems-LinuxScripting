@@ -82,10 +82,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/RoundRobin.cpp">
+			<Option target="CPUSchedAlgSimulation"/>
+		</Unit>
+		<Unit filename="E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/RoundRobin.h">
+			<Option target="CPUSchedAlgSimulation"/>
+		</Unit>
 		<Unit filename="E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SJF.cpp">
 			<Option target="CPUSchedAlgSimulation"/>
 		</Unit>
 		<Unit filename="E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SJF.h">
+			<Option target="CPUSchedAlgSimulation"/>
+		</Unit>
+		<Unit filename="E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SchedulingAlgorithm.cpp">
+			<Option target="CPUSchedAlgSimulation"/>
+		</Unit>
+		<Unit filename="E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SchedulingAlgorithm.h">
 			<Option target="CPUSchedAlgSimulation"/>
 		</Unit>
 		<Unit filename="E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SystemObjects/Process.cpp">

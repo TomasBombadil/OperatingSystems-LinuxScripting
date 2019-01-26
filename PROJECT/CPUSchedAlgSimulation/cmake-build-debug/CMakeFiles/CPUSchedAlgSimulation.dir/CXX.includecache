@@ -6,19 +6,29 @@
 
 #IncludeRegexTransform: 
 
+E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/RoundRobin.cpp
+RoundRobin.h
+E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/RoundRobin.h
+
+E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/RoundRobin.h
+SchedulingAlgorithm.h
+E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SchedulingAlgorithm.h
+
 E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SJF.cpp
 SJF.h
 E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SJF.h
 
 E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SJF.h
-vector
--
-algorithm
--
+SchedulingAlgorithm.h
+E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SchedulingAlgorithm.h
+
+E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SchedulingAlgorithm.cpp
 SchedulingAlgorithm.h
 E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SchedulingAlgorithm.h
 
 E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SchedulingAlgorithm.h
+algorithm
+-
 vector
 -
 ctime
@@ -27,11 +37,17 @@ ctime
 E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SystemObjects/Process.h
 
 E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SystemObjects/Process.cpp
+cstring
+-
 Process.h
 E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SystemObjects/Process.h
 
 E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SystemObjects/Process.h
 iostream
+-
+string
+-
+chrono
 -
 ctime
 -
@@ -39,8 +55,12 @@ ctime
 E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/main.cpp
 iostream
 -
-vector
+chrono
+-
+fstream
 -
 SchedulingAlgorithms/SJF.h
 E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/SJF.h
+SchedulingAlgorithms/RoundRobin.h
+E:/STUDIA/SO/OperatingSystems-LinuxScripting/PROJECT/CPUSchedAlgSimulation/SchedulingAlgorithms/RoundRobin.h
 

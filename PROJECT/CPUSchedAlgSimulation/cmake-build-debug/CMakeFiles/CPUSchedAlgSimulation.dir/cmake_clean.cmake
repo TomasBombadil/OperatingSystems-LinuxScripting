@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CPUSchedAlgSimulation.dir/main.cpp.obj"
   "CMakeFiles/CPUSchedAlgSimulation.dir/SystemObjects/Process.cpp.obj"
+  "CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SchedulingAlgorithm.cpp.obj"
   "CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/SJF.cpp.obj"
+  "CMakeFiles/CPUSchedAlgSimulation.dir/SchedulingAlgorithms/RoundRobin.cpp.obj"
   "CPUSchedAlgSimulation.pdb"
   "CPUSchedAlgSimulation.exe"
   "CPUSchedAlgSimulation.exe.manifest"
